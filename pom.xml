@@ -41,12 +41,13 @@
 						<provider>MC</provider>
 						<environment>${environment}</environment>
 						<!-- Target Name as in the documentation US East Ohio -->
-						<target>Cloudhub-US-East-2</target>
+						<target>Cloudhub-EU-Central-1</target>
 						<!-- mule version format muleruntime-java17 -->
 						<!-- If not provided, will choose the latest Edge version -->
 						<muleVersion>4.9.2:6e-java17</muleVersion>
 						<!-- Authentication to do the deployment -->
 						<!-- Connected Apps, clientid and secret for CI Server -->
+						<releaseChannel>EDGE</releaseChannel>
 						<!-- <connectedAppClientId>${ca_client_id}</connectedAppClientId>-->
 						<!-- <connectedAppClientSecret>${ca_client_secret}</connectedAppClientSecret>-->
 						<!-- <connectedAppGrantType>client_credentials</connectedAppGrantType>-->
